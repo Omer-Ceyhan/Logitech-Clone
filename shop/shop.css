@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #00a8e1;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #00a8e1;
+}
+
+
+.sekmeler ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-transform: none;
+}
+.sekmeler ul li a{
+    text-decoration: none;
+}
+
+.deneme{
+    gap: 200px;
+    margin-top: 10%;
+    margin-left: 200px;
+    display: none;
+}
+
+.deneme img{
+    width: 300px;
+    height: 200px;
+}
+
+.fa-solid {
+    background-color: black;
+    cursor: pointer;
+}

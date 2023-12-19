@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #00a8e1;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #00a8e1;
+    position: sticky;
+    top: 10px;
+}
+
+
+.sekmeler ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-transform: none;
+}
+.sekmeler ul li a{
+    text-decoration: none;
+}
+
+
+.orta{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 600px;
+    margin-bottom: -900px;
+    align-items: center;
+}
+
+.orta img{
+    width: 800px;
+    height: 600px;
+    margin-left: 300px;
+    transform: translateX(45deg);
+}
+
+.png {
+    margin-right: 200px ;
+}
+.yazi{
+    width: 400px;
+    height: 100px;
+}
+
+
+
+.mouse-item{
+    margin-top: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mouse-item-1{
+    width: 25%;
+    height: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+}
+
+.klavye-img{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+}
+.klavye-img:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.klavye-img-2{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    display: none;
+}
+.klavye-img-2:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btn-mouse-1{
+    border-radius: 30px;
+    margin: 50px 170px;
+    width: 150px;
+    height: 45px;
+    background-color: #00a8e1;
+    color: black;
+}
+.btn-mouse-1:hover{
+    background-color: black;
+    color: #00a8ff;
+    transition: 0.4s linear;
+}
+
+.mouse-item-2{
+    width: 25%;
+    height: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+
+}
+
+.klavye-img-3{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+}
+.klavye-img-3:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.klavye-img-4{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    display: none;
+    
+}
+.klavye-img-4:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.klavye-img-5{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    display: none;
+    
+}
+.klavye-img-5:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.mouse-item-3{
+    width: 25%;
+    height: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+}
+.mouse-item-3 img{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    
+}
+.mouse-item-3 img:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+@media (max-width: 1000px){
+    .mouse-item{
+        display: block;
+        gap: 30px;
+    }
+}
+    
+.klavye-btn{
+    border-radius: 50%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    border:1px solid black;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.klavye-btn-2{
+    border-radius: 50%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    border:1px solid black;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}

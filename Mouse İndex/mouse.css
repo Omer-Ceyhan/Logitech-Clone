@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #00a8e1;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #00a8e1;
+    
+}
+
+
+.sekmeler ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-transform: none;
+}
+.sekmeler ul li a{
+    text-decoration: none;
+}
+
+
+
+.klavye{
+    width: 700px;
+    height: 500px;
+}
+
+.orta img{
+    margin-left: 300px;
+    
+}
+.orta img:hover{
+    transform: scale(1.1);
+    transition: 1.5s linear;
+    cursor: pointer;
+}
+
+.klavye-yazi{
+    margin-top: 250px;
+    margin-left: 400px;
+}
+.klavye-yazi p{
+   
+    color: white;
+}
+
+.orta{
+    display: flex;
+    margin-top: 50px;
+}
+
+.mouse-item{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mouse-item-1{
+    width: 25%;
+    height: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+}
+
+.mouse-item-1 img{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.mouse-item-1 img:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btn-mouse-1{
+    border-radius: 30px;
+    margin: 50px 170px;
+    width: 150px;
+    height: 45px;
+    background-color: #00a8e1;
+    color: black;
+}
+.btn-mouse-1:hover{
+    background-color: black;
+    color: #00a8ff;
+    transition: 0.4s linear;
+}
+
+.mouse-item-2{
+    width: 25%;
+    height: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+
+}
+
+.mouse-item-2 img{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    
+}
+.mouse-item-2 img:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.mouse-item-3{
+    width: 25%;
+    height: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow:0px 0px 22px 0px rgba(0,170,255,0.9);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+    box-shadow: 0px 0px 22px 0px rgba(0,170,255,0.9);
+}
+.mouse-item-3 img{
+    width: 300px;
+    filter: drop-shadow(1px 0px 6px #00a8ff);
+    margin-left: 20%;
+    margin-top: 10px;
+    
+}
+.mouse-item-3 img:hover{
+    transition: 0.5s linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}
